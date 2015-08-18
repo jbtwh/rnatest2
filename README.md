@@ -6,3 +6,4 @@ demo - https://tranquil-waters-1581.herokuapp.com
 
 запуск на локальной машине:
 mvn clean package, из корневой папки проекта - target/bin/webapp.bat
+либо запустить me.rnatest.starter.Starter
