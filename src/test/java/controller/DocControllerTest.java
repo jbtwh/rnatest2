@@ -31,24 +31,24 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Created by DEN
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {MainConfig.class})
-@WebAppConfiguration
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration(classes = {MainConfig.class})
+//@WebAppConfiguration
 public class DocControllerTest {
 
     MockMvc mockMvc;
 
-    @Autowired
+   // @Autowired
     private MainController mycontroller;
 
     ObjectMapper mapper = new ObjectMapper();
 
-    @Before
+   // @Before
     public void init(){
         mockMvc = MockMvcBuilders.standaloneSetup(mycontroller).build();
     }
 
-    @Test
+    //@Test
     public void testAddDoc()  throws Exception{
         ClassLoader classLoader = getClass().getClassLoader();
         File file1 = new File(classLoader.getResource("test.xml").getFile());
