@@ -1,7 +1,5 @@
 /**
  * Created by DEN
  */
-//@javax.xml.bind.annotation.XmlSchema(namespace = "test2", elementFormDefault =  XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "test")
 package me.rnatest.entity.test;
-
-import javax.xml.bind.annotation.XmlNsForm;
